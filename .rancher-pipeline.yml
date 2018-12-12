@@ -1,0 +1,6 @@
+stages:
+- name: Build
+  steps:
+  - applyYamlConfig:
+      path: ./stack.yml
+timeout: 60
